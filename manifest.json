@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Weather",
+  "description": "An extension for seeing the local weather",
+  "version": "1.0",
+    
+    "browser_action": {
+        
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "logo-small.png",
+        "48": "logo-small.png",
+        "128": "logo-small.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net/npm/chart.js@2.8.0; object-src 'self'",
+    "permissions": [
+        "geolocation",
+        "alarms",
+        "<all_urls>"
+    ]
+}

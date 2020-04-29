@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    font-size: 18pt;
+    font-family: Tahoma;
+    vertical-align: middle;
+}
+
+#ico {
+    display: none;
+    margin: 0 auto;
+}
+
+#temperature {
+    font-size: 26pt;
+}
+.details{
+    font-size:14px;
+    width:140px;
+    margin:0px auto;
+    line-height: 26px;;
+}
